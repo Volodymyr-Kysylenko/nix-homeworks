@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 9</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: rgb(238, 238, 238);
+            font-family: sans-serif;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            margin: 36px 0;
+        }
+
+        table {
+            border: 1px solid rgb(234, 247, 255);
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        th {
+            background-color: rgb(172, 198, 255);
+        }
+
+        .type {
+            font-weight: bold;
+            font-style: italic;
+            background-color: rgb(127, 204, 255);
+        }
+
+        .kind {
+            font-weight: bold;
+            background-color: rgb(181, 255, 200);
+        }
+
+        .cuisine {
+            font-style: italic;
+            background-color: rgb(249, 244, 116);
+        }
+
+        .meatOrFish {
+            background-color: rgb(255, 169, 173);
+        }
+    </style>
+    <h1>Меню</h1>
+    <h2>Ресторан "Їмо смачно"</h2>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Тип</th>
+                <th>Вид</th>
+                <th>Кухня</th>
+                <th>Назва</th>
+                <th>Вага, грам</th>
+                <th>Ціна, грн.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="type" rowspan="10">Сніданки</td>
+                <td class="kind" rowspan="5">Яєшні, омлети</td>
+                <td class="cuisine" rowspan="3">Європейська</td>
+                <td>ЯЄШНЯ НАТУРАЛЬНА</td>
+                <td>120</td>
+                <td>66,00</td>
+            </tr>
+            <tr>
+                <td>ЯЄШНЯ З ШИНКОЮ ТА СИРОМ</td>
+                <td>170</td>
+                <td>132,00</td>
+            </tr>
+            <tr>
+                <td>ОМЛЕТ З ШИНКОЮ ТА СИРОМ</td>
+                <td>200</td>
+                <td>119,00</td>
+            </tr>
+            <tr>
+                <td class="cuisine" rowspan="2">Українська</td>
+                <td>ОМЛЕТ З САЛОМ</td>
+                <td>220</td>
+                <td>139,00</td>
+            </tr>
+            <tr>
+                <td>ОМЛЕТ "КОЗАЦЬКИЙ"</td>
+                <td>320</td>
+                <td>199,00</td>
+            </tr>
+            <tr>
+                <td class="kind" rowspan="5">Млинці та вареники</td>
+                <td class="cuisine" rowspan="3">Європейська</td>
+                <td>МЛИНЦІ З СИРОМ</td>
+                <td>200</td>
+                <td>152,00</td>
+            </tr>
+            <tr>
+                <td>МЛИНЦІ З КУРЯТИНОЮ ТА ГРИБАМИ</td>
+                <td>200</td>
+                <td>158,00</td>
+            </tr>
+            <tr>
+                <td>МЛИНЦІ З КАРАМЕЛЕВИМ СОУСОМ</td>
+                <td>150</td>
+                <td>122,00</td>
+            </tr>
+            <tr>
+                <td class="cuisine" rowspan="2">Українська</td>
+                <td>ВАРЕНИКИ З М’ЯСОМ</td>
+                <td>290</td>
+                <td>132,00</td>
+            </tr>
+            <tr>
+                <td>ВАРЕНИКИ З КАРТОПЛЕЮ, ГРИБАМИ ТА ШКВАРКАМИ</td>
+                <td>200</td>
+                <td>95,00</td>
+            </tr>
+            <tr>
+                <td class="type" rowspan="16">Гарячі страви</td>
+                <td class="kind" rowspan="4">Перші страви</td>
+                <td class="cuisine" rowspan="2">Європейська</td>
+                <td>ЮШКА З КВАСОЛЕЮ ТА ГРИБАМИ НА КУРЯЧОМУ БУЛЬЙОНІ</td>
+                <td>300</td>
+                <td>120,00</td>
+            </tr>
+            <tr>
+                <td>СУП З СОЧЕВИЦЕЮ ТА КОПЧЕНИМИ РЕБРАМИ</td>
+                <td>300</td>
+                <td>161,00</td>
+            </tr>
+            <tr>
+                <td class="cuisine" rowspan="2">Українська</td>
+                <td>БОРЩ УКРАЇНСЬКИЙ В ДОМАШНЬОМУ ХЛІБІ</td>
+                <td>300</td>
+                <td>191,00</td>
+            </tr>
+            <tr>
+                <td>СОЛЯНКА ЗБІРНА М’ЯСНА</td>
+                <td>300</td>
+                <td>209,00</td>
+            </tr>
+            <tr>
+                <td class="kind" rowspan="8">Другі страви</td>
+                <td class="meatOrFish" colspan="4">М'ясні</td>
+            </tr>
+            <tr>
+                <td class="cuisine" rowspan="2">Європейська</td>
+                <td>ШАШЛИК АСОРТІ</td>
+                <td>250</td>
+                <td>260,00</td>
+            </tr>
+            <tr>
+                <td>РЕБРО ТУШКОВАНЕ (СВИНИНА)</td>
+                <td>700</td>
+                <td>759,00</td>
+            </tr>
+            <tr>
+                <td class="cuisine" rowspan="2">Українська</td>
+                <td>КОТЛЕТА “КИЇВСЬКА”</td>
+                <td>230</td>
+                <td>197,00</td>
+            </tr>
+            <tr>
+                <td>КОТЛЕТА “ДОМАШНЯ”</td>
+                <td>200</td>
+                <td>127,00</td>
+            </tr>
+            <tr>
+                <td class="meatOrFish" colspan="4">Рибні</td>
+            </tr>
+            <tr>
+                <td class="cuisine" rowspan="2">Європейська</td>
+                <td>СЕВРЮГА ЦІЛА, ЗАПЕЧЕНА З ЗЕЛЕННЮ</td>
+                <td>100</td>
+                <td>177,00</td>
+            </tr>
+            <tr>
+                <td>ДОРАДО ГРИЛЬ (ВАГОВА)</td>
+                <td>100</td>
+                <td>195,00</td>
+            </tr>
+            <tr>
+                <td class="kind" rowspan="4">Гарніри</td>
+                <td class="cuisine" rowspan="2">Європейська</td>
+                <td>КВАСОЛЯ ТУШКОВАНА З КУРЯТИНОЮ ТА ОВОЧАМИ</td>
+                <td>180</td>
+                <td>111,00</td>
+            </tr>
+            <tr>
+                <td>ПЮРЕ ЗІ ШПИНАТУ</td>
+                <td>150</td>
+                <td>105,00</td>
+            </tr>
+            <tr>
+                <td class="cuisine" rowspan="2">Українська</td>
+                <td>КАРТОПЛЯ ПО-СЕЛЯНСЬКИ</td>
+                <td>250</td>
+                <td>114,00</td>
+            </tr>
+            <tr>
+                <td>ГРЕЧАНА КАША ЗІ ШКВАРКАМИ ТА ГРИБАМИ</td>
+                <td>250</td>
+                <td>82,00</td>
+            </tr>
+            <tr>
+                <td class="type" rowspan="7">Холодні страви</td>
+                <td class="kind" rowspan="4">Салати</td>
+                <td class="cuisine" rowspan="2">Європейська</td>
+                <td>САЛАТ “ЦЕЗАР”</td>
+                <td>210</td>
+                <td>228,00</td>
+            </tr>
+            <tr>
+                <td>САЛАТ З РОЖЕВИМ ТУНЦЕМ І ПОЛУНИЦЕЮ</td>
+                <td>200</td>
+                <td>309,00</td>
+            </tr>
+            <tr>
+                <td class="cuisine" rowspan="2">Українська</td>
+                <td>САЛАТ “ОЛІВ’Є”</td>
+                <td>225</td>
+                <td>188,00</td>
+            </tr>
+            <tr>
+                <td>САЛАТ “ЧУМАЦЬКИЙ”</td>
+                <td>255</td>
+                <td>525,00</td>
+            </tr>
+            <tr>
+                <td class="kind" rowspan="3">Закуски</td>
+                <td class="cuisine" rowspan="3">Українська</td>
+                <td>БАБУСИН ХОЛОДЕЦЬ</td>
+                <td>400</td>
+                <td>276,00</td>
+            </tr>
+            <tr>
+                <td>КОВБАСА ДОМАШНЯ З ХРІНОМ</td>
+                <td>125</td>
+                <td>135,00</td>
+            </tr>
+            <tr>
+                <td>ЯЙЦЕ “СОРОЧИНСЬКЕ”</td>
+                <td>100</td>
+                <td>215,00</td>
+            </tr>
+            <tr>
+                <td class="type" rowspan="3" colspan="2">Десерти</td>
+                <td class="cuisine" rowspan="3">Європейська</td>
+                <td>ЕКЛЕРИ З МОРОЗИВОМ ПІД ГАРЯЧИМ ШОКОЛАДОМ</td>
+                <td>140</td>
+                <td>116,00</td>
+            </tr>
+            <tr>
+                <td>ДЕСЕРТ “ПРИМХЛИВА ГРУША”</td>
+                <td>100</td>
+                <td>92,00</td>
+            </tr>
+            <tr>
+                <td>ВАНІЛЬНА ПАННА-КОТТА</td>
+                <td>250</td>
+                <td>218,00</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

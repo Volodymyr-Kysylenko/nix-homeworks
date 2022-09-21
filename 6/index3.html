@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 6, друга посилана сторінка</title>
+</head>
+
+<body bgcolor="lightblue" style="color: rgb(16, 1, 67);">
+    <h1 align="left">
+        How to Use the FormData Object
+    </h1>
+    <h3 align="left">
+        Learn how to use the FormData object in JavaScript/TypeScript
+    </h3>
+    <div align="left">
+        <a href="./images/image3.jpeg"><img src="./images/image3.jpeg" alt="Forms keyboard"></a>
+    </div>
+    <p align="left">
+        The JavaScript FormData interface gives us a way to create an object of key-value pairs representing form fields 
+        and their values.
+    </p>
+    <p align="left">
+        It uses the same format a form would use if the encoding type were set to <code>“multipart/form-data"</code>. This makes 
+        it easy to format form data before sending it along with a fetch or XMLHTTPRequest.
+    </p>
+    <br />
+    <h2 align="left">What is the FormData object?</h2>
+    <p align="left">
+        In order to fully understand the FormData object, we need to know what it is. The FormData interface is 
+        a native browser interface supported in all major browsers. This interface was created in order to allow 
+        developers easier access to the content of form fields and their values. This helps prepare the content for 
+        submission to an API or helps perform validation on said fields.
+    </p>
+    <br />
+    <h2 align="left">How to create a FormData Object?</h2>
+    <p align="left">
+        A FormData object can be created with the FormData constructor.
+    </p>
+    <br />
+    <h2 align="left">How to access the data in a FormData object?</h2>
+    <p align="left"> 
+        The FormData object allows us to retrieve values directly through the get() method. You can 
+        also append or delete values through the respective methods. You can also set a new value for a key with the 
+        set() method. Finally, you can also loop through the key-value pairs either through looping over the 
+        formDate.entries() or by using a for…of loop.
+    </p>
+    <br />
+    <h2 align="left">How to create URL query params based on the FormData?</h2>
+    <p align="left"> 
+        If you want to convert the FormData into a set of query params this is very simple to do. You can pass the FormData 
+        object directly into the URLSearchParams.
+    </p>
+    <br />
+    <h2 align="left">How to Post FormData With The Fetch API</h2>
+    <p align="left"> 
+        A FormData object can easily be used with the Fetch API. You can simply pass the object as the body of the request.
+    </p>
+    <br />
+    <h2 align="left">How to Use The FormData Event</h2>
+    <p align="left"> 
+        Whenever a FormData object is created for a form, an event is dispatched against the form. We can listen to this event 
+        and bind some logic to it, for example submitting the FormData to an API endpoint. In the example below we create a FormData
+         object when the form is submitted. We listen to the FormData event and submit the data. This gives us the freedom to act 
+         upon the creation of the FormData which might not only be on submit.
+    </p>
+    <br />
+    <div align="left">
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/9mhyo1wQGeI?autoplay=1&modestbranding=1&mute=1&controls=0"
+            title="YouTube video player" frameborder="0" start="15"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+            allowfullscreen></iframe>
+    </div>
+    <br />
+    <br />
+    <div align="left">
+        <h4>Read also:</h4>
+        <br />
+        <a href="./index.html">3 Reasons Why TypeScript is Better Than Vanilla JavaScript</a>
+        <br />
+        <br />
+        <a href="./index2.html">My 3 Most-Used JavaScript Utility Functions</a>
+        <br />
+        <br />
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 6, перша посилана сторінка</title>
+</head>
+
+<body bgcolor="lightgrey" style="color: rgb(60, 60, 60);">
+    <h1 align="center">
+        My 3 Most-Used JavaScript Utility Functions
+    </h1>
+    <h3 align="center">
+        Convert Numbers to Currency, Measure Function Performance, and more.
+    </h3>
+    <div align="center">
+        <a href="./images/image2.jpg"><img src="./images/image2.jpg" alt="Workspace"></a>
+    </div>
+    <p align="center">
+        JavaScript utility functions are useful, reusable snippets that you can reuse across many different
+        projects. Their purpose is to provide a consistent and efficient answer to common tasks and help improve the
+        consistency of your code.
+    </p>
+    <p align="center">
+        In this article, I want to highlight 3 utility functions that I use in many of my projects and explain their
+        uses.
+    </p>
+    <br />
+    <br />
+    <h2 align="center">1. Debounce</h2>
+    <p align="center">
+        In JavaScript, a debounce function will make sure your function will only be triggered once per user input
+        or at least not more than once in the time period specified in the wait parameter. For example, let’s
+        imagine that we want to show suggestions to the user based on a search query, we could
+        show a suggestion while the user is typing and refresh after each letter that is typed, but this can be
+        annoying for the user. It’s common to wait for example at least 300ms after a key is entered to display
+        suggestions to make sure the user is done typing.
+    </p>
+    <br />
+    <br />
+    <h2 align="center">2. Convert a Number to a Currency</h2>
+    <p align="center">
+        When working with currencies in JavaScript things can get complex. Especially when you need to deal with
+        displaying different types of currencies. JavaScript offers the Intl.NumberFormat object which allows you
+        to format numbers in a language-sensitive manner. One of the options it offers is to format the number as a
+        currency.
+    </p>
+    <br />
+    <br />
+    <h2 align="center">3. Convert an HTML String to a DOM Object</h2>
+    <p align="center"> 
+        There are many cases in which you might receive an HTML string instead of an HTML element. For example, when 
+        receiving HTML in a JSON response from an API or when rendering a template through a template parser like Nunjucks. 
+        You can inject this HTML string directly into the dom through the innerHTML property, but sometimes you want to convert 
+        this string to an HTML object for additional transformations, validations, or more specific DOM injecting.
+    </p>
+    <br />
+    <br />
+    <div align="center">
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/dM-Zj6J0fBY?loop=1&start=20"
+            title="YouTube video player" frameborder="0" start="15"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+            allowfullscreen></iframe>
+    </div>
+    <br />
+    <br />
+    <div align="center">
+        <h4>Read also:</h4>
+        <br />
+        <a href="./index.html">3 Reasons Why TypeScript is Better Than Vanilla JavaScript</a>
+        <br />
+        <br />
+        <a href="./index3.html">How to Use the FormData Object</a>
+        <br />
+        <br />
+    </div>
+</body>
+
+</html>
